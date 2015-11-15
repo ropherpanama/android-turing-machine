@@ -5,7 +5,7 @@ Puedes contribuir a mejorar este software o a utilizarlo para fines educativos, 
 
 Para más información puedes seguirme en:
 
-Mi [blog] (ropherpanama.github.io)
+Mi [blog] (http://ropherpanama.github.io/)
 
 En [Twitter] (https://twitter.com/ropherpanama) 
 
