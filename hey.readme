@@ -1,0 +1,16 @@
+16/09/2015
+Esta aplicación fué desarrollada unicamente para fines académicos.
+Todo el código de la misma es propio del autor.
+
+Cons:
+La aplicación puede presentar problemas atendiendo a los siguientes puntos
+- La aplicación no ofrece ajuste automático entre pantallas de distintos móviles, se desarrolló usando un LG L70, quizá lo soporte por el uso de scrollviews
+- La aplicación solo se presenta en modo "portrait" (vertical)
+- La aplicación hace uso extensivo de memoria, ya que los objetos manipulados en su mayoria son ArrayList's
+- Se deben setear los estados iniciales antes de las transiciones, de lo contrario se borran las transiciones realizadas (se debe corregir a nivel de guardado de datos) 
+- La aplicación no realiza validaciones a nivel de integridad de la configuración (se permiten transiciones duplicadas)
+- No se pueden editar las transiciones realizadas, se debe añadir la funcionalidad de editar y borrar transiciones existentes
+
+Cualquier consulta o comentario:
+email: ropherpanama@gmail.com
+twitter: @ropherpanama

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="estados_tipos">
+        <item>Inicial</item>
+        <item>Terminal</item>
+    </string-array>
+    
+    <string-array name="direcciones">
+        <item>R</item>
+        <item>L</item>
+    </string-array>
+
+</resources>

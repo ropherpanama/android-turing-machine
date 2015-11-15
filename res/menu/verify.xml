@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.comp_compl_mt_app.VerifyActivity" >
+
+    <item
+        android:id="@+id/action_run"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_run"
+        android:title="Ejecutar"/>
+
+</menu>

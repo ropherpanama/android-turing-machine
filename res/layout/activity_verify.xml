@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    tools:context="com.comp.mt.VerifyActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lenguaje"
+            android:textColor="@color/azul_marino"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris" />
+
+        <TextView
+            android:id="@+id/lenguaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configuración actual"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Estados"
+            android:textColor="@color/azul_marino"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris" />
+
+        <TextView
+            android:id="@+id/estados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configuración actual"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Estado inicial"
+            android:textColor="@color/azul_marino"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris" />
+
+        <TextView
+            android:id="@+id/estadoInicial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No definido"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Estado final"
+            android:textColor="@color/azul_marino"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris" />
+
+        <TextView
+            android:id="@+id/estadoFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No definido"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Transiciones"
+            android:textColor="@color/azul_marino"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris" />
+
+        <TextView
+            android:id="@+id/transiciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No hay transiciones definidas"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTAndroid</string>
+    <string name="action_settings">Verificar configuración</string>
+    <string name="scrn1_label_1">Definir cantidad de estados</string>
+    <string name="scrn1_label_2">Cantidad de estados de la máquina</string>
+    <string name="title_activity_estados">Datos del problema</string>
+    <string name="title_activity_verify">Configuración actual</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_transitions">Definir transiciones</string>
+    <string name="title_activity_run">Ejecución</string>
+
+</resources>
